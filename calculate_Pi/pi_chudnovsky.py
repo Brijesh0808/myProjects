@@ -47,7 +47,7 @@ c2 = Decimal(545140134)
 
 #Loop to calculate pi inverse
 
-for k in range(niter//11 +2):
+for k in range(niter//11 +2):               #niter//11 +2 is rough estimation, and it saves time as compared to the argument niter directly
     pi_i += (pow(-1,k)*fact(6*k)*(c1 + c2*Decimal(k)))/(fact(3*k)*pow(fact(k),3)*pow(640320, 3*k))
 
 #calculating original pi using completed formula(see website mentioned in doc string at top for more info)
