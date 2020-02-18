@@ -22,7 +22,7 @@ from time import time                           #uses time()
 from decimal import *                           #for getcontext().prec AND Decimal()
 from math import factorial as fact              #Creating alias
 
-def pow(num, pwr):
+def pow(num, pwr):                                      #Making this fxn increases speed of the program as compared to ** oprator(unknown reason)
     '''
     :param num: represents number
     :param pwr: represents power
