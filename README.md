@@ -1,2 +1,2 @@
 # myProjects
-Contains Python Projects
+Contains my self made Projects
